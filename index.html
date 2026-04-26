@@ -3,14 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yousef Jubili - Portfolio</title>
+    <meta name="theme-color" content="#0e0f11">
+    <meta name="color-scheme" content="dark">
+    <meta name="description" content="Yousef Jubili — Computer Science student at Effat University. Building software, solving problems.">
+    <title>Yousef Jubili · skuwii</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/images/favicon.svg">
 
     <!-- CSS -->
     <link rel="stylesheet" href="css/style.css">
 
-    <!-- Google Fonts -->
+    <!-- JetBrains Mono -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&display=swap"
         rel="stylesheet"
     >
 
@@ -25,190 +33,327 @@
     <!-- Navigation -->
     <nav class="navbar">
         <div class="nav-content">
-            <a href="#" class="logo">Yousef Jubili</a>
+            <a href="#home" class="logo">
+                <span class="logo-mark">S</span>
+                <span class="logo-text">skuwii</span>
+            </a>
             <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#home"><span class="nav-slash">/</span>home</a></li>
+                <li><a href="#about"><span class="nav-slash">/</span>about</a></li>
+                <li><a href="#skills"><span class="nav-slash">/</span>skills</a></li>
+                <li><a href="#projects"><span class="nav-slash">/</span>projects</a></li>
+                <li><a href="#contact"><span class="nav-slash">/</span>contact</a></li>
             </ul>
         </div>
     </nav>
 
     <!-- Hero Section -->
-<section id="home" class="hero">
-    <div class="hero-content">
-        <h1>
-            Hi, I’m <span class="highlight">Yousef Jubili</span>
-        </h1>
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <p class="label">[ portfolio ]</p>
 
-        <p class="tagline">
-            Computer Science Student | Aspiring Developer
-        </p>
+            <h1>
+                Yousef Jubili
+                <span class="highlight">/ skuwii</span>
+            </h1>
 
-        <p class="intro">
-            Welcome to my portfolio! I’m passionate about creating innovative solutions.
-        </p>
-
-        <div class="hero-buttons">
-            <a href="#projects" class="btn btn-primary">
-                View My Work
-            </a>
-            <a href="#contact" class="btn btn-secondary">
-                Contact Me
-            </a>
-        </div>
-    </div>
-
-    <div class="hero-image">
-        <img src="images/profile.jpg" alt="Image of Yousef">
-    </div>
-</section>
-
-<!-- About Section -->
-<section id="about" class="about">
-    <h2 class="section-title">About Me</h2>
-
-    <div class="about-content">
-        <div class="about-text">
-            <p>
-                Hello! I’m a Computer Science student at Effat University. 
-                I’m currently in my second year, focusing on getting a general grasp on everything before focusing on one path of CS.
+            <p class="tagline">
+                Computer Science Student · Effat University
             </p>
-            <p>
-                My journey in tech began when i was introduced to video game consoles by my dad. As i grew older and started using more advanced devices, i had to start learning basic things about them and how they work. This eventually lead to me enetering the world of computers where i became very interested in all topics related to them. 
-                Since then, I’ve been constantly learning.
+
+            <p class="intro">
+                CS student exploring the vast world of all things digital. Based in Jeddah. I use Arch btw.
             </p>
-        </div>
 
-        <div class="about-info">
-            <div class="info-item">
-                <i class="fas fa-graduation-cap"></i>
-                <span>BSc Computer Science</span>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">
+                    <i class="fas fa-folder-open"></i> View work
+                </a>
+                <a href="#contact" class="btn btn-secondary">
+                    <i class="fas fa-envelope"></i> Contact
+                </a>
             </div>
 
-            <div class="info-item">
-                <i class="fas fa-map-marker-alt"></i>
-                <span>Jeddah, Saudi Arabia</span>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- Skills Section -->
-<section id="skills" class="skills">
-    <h2 class="section-title">My Skills</h2>
-
-    <div class="skills-container">
-        <div class="skill-category">
-            <h3>
-                <i class="fas fa-code"></i>
-                Programming Languages
-            </h3>
-
-            <div class="skill-tags">
-                <span class="skill-tag">Python</span>
-                <span class="skill-tag">Java</span>
-                <span class="skill-tag">JavaScript</span>
-                <span class="skill-tag">C++</span>
-                <span class="skill-tag">SQL</span>
+            <div class="prompt-line">
+                <span class="prompt">S❯</span>
+                <span class="prompt-cmd">cat /etc/skuwii/identity</span>
+                <span class="cursor"></span>
             </div>
         </div>
 
-        <div class="skill-category">
-            <h3>
-                <i class="fas fa-laptop-code"></i>
-                Web Development
-            </h3>
-
-            <div class="skill-tags">
-                <span class="skill-tag">HTML5</span>
-                <span class="skill-tag">CSS3</span>
-                <span class="skill-tag">React</span>
-                <span class="skill-tag">Node.js</span>
+        <div class="hero-image">
+            <div class="hero-image-frame">
+                <img src="images/profile.jpg" alt="Yousef Jubili">
+                <div class="hero-image-corner top-left"></div>
+                <div class="hero-image-corner top-right"></div>
+                <div class="hero-image-corner bottom-left"></div>
+                <div class="hero-image-corner bottom-right"></div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
-<!-- Projects Section -->
-<section id="projects" class="projects">
-    <h2 class="section-title">My Projects</h2>
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2 class="section-title">
+            <span class="section-index">01</span>
+            <span class="section-name">About</span>
+        </h2>
 
-    <div class="projects-grid">
-        <div class="project-card">
-            <div class="project-image">
-                <img src="images/project1.jpg" alt="Project 1">
-            </div>
-
-            <div class="project-info">
-                <h3>Project Title 1</h3>
+        <div class="about-content">
+            <div class="about-text">
                 <p>
-                    A brief description of your project.
+                    I'm a Computer Science student at Effat University, currently
+                    in my second year — focused on building a strong general
+                    foundation across systems, networks, and AI before
+                    specializing.
                 </p>
+                <p>
+                    My path into tech started with video game consoles as a kid
+                    and grew into a deeper curiosity about how the machines
+                    themselves work. That curiosity now drives how I build:
+                    end-to-end, no shortcuts on understanding, and with a real
+                    care for the tools and environments I use.
+                </p>
+            </div>
 
+            <div class="about-info">
+                <div class="info-item">
+                    <i class="fas fa-graduation-cap"></i>
+                    <div>
+                        <span class="info-label">Education</span>
+                        <span class="info-value">BSc Computer Science · 2nd year</span>
+                    </div>
+                </div>
+
+                <div class="info-item">
+                    <i class="fas fa-university"></i>
+                    <div>
+                        <span class="info-label">University</span>
+                        <span class="info-value">Effat University</span>
+                    </div>
+                </div>
+
+                <div class="info-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div>
+                        <span class="info-label">Location</span>
+                        <span class="info-value">Jeddah, Saudi Arabia</span>
+                    </div>
+                </div>
+
+                <div class="info-item">
+                    <i class="fas fa-terminal"></i>
+                    <div>
+                        <span class="info-label">Setup</span>
+                        <span class="info-value">Arch Linux · Hyprland</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <h2 class="section-title">
+            <span class="section-index">02</span>
+            <span class="section-name">Skills</span>
+        </h2>
+
+        <div class="skills-container">
+            <div class="skill-category">
+                <h3>
+                    <i class="fas fa-code"></i>
+                    Languages
+                </h3>
+                <div class="skill-tags">
+                    <span class="skill-tag">Python</span>
+                    <span class="skill-tag">C / C++</span>
+                    <span class="skill-tag">Java</span>
+                    <span class="skill-tag">JavaScript</span>
+                    <span class="skill-tag">SQL</span>
+                </div>
+            </div>
+
+            <div class="skill-category">
+                <h3>
+                    <i class="fas fa-laptop-code"></i>
+                    Web
+                </h3>
+                <div class="skill-tags">
+                    <span class="skill-tag">HTML5</span>
+                    <span class="skill-tag">CSS3</span>
+                    <span class="skill-tag">REST APIs</span>
+                </div>
+            </div>
+
+            <div class="skill-category">
+                <h3>
+                    <i class="fas fa-server"></i>
+                    Systems &amp; Tools
+                </h3>
+                <div class="skill-tags">
+                    <span class="skill-tag">Linux (Arch)</span>
+                    <span class="skill-tag">Bash</span>
+                    <span class="skill-tag">Git</span>
+                    <span class="skill-tag">Cisco Packet Tracer</span>
+                </div>
+            </div>
+
+            <div class="skill-category">
+                <h3>
+                    <i class="fas fa-brain"></i>
+                    AI &amp; CS
+                </h3>
+                <div class="skill-tags">
+                    <span class="skill-tag">Multi-agent systems</span>
+                    <span class="skill-tag">CyberSec tools</span>
+                    <span class="skill-tag">Bayesian inference</span>
+                    <span class="skill-tag">Networks</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h2 class="section-title">
+            <span class="section-index">03</span>
+            <span class="section-name">Projects</span>
+        </h2>
+
+        <div class="projects-grid">
+
+            <!-- Project 1 -->
+            <article class="project-card">
+                <div class="project-meta">
+                    <span class="project-index">01</span>
+                    <span class="project-status status-active">● active</span>
+                    <span class="project-year">2026</span>
+                </div>
+                <h3>Hajj Traffic Simulation</h3>
+                <p>
+                    Multi-agent traffic simulation modeling Hajj pilgrimage
+                    routes around Mecca. Road agents handle noisy sensor
+                    observations with Bayesian belief updates; vehicles
+                    re-route through the network using A* search with belief-
+                    based edge weights.
+                </p>
                 <div class="project-tech">
                     <span>Python</span>
-                    <span>Flask</span>
+                    <span>Mesa</span>
+                    <span>NetworkX</span>
+                    <span>A*</span>
+                    <span>Bayesian inference</span>
                 </div>
-
                 <div class="project-links">
-                    <a href="#">
-                        <i class="fab fa-github"></i> Code
-                    </a>
-                    <a href="#">
-                        <i class="fas fa-external-link-alt"></i> Demo
+                    <a href="https://github.com/skuwii/hajj_traffic" target="_blank" rel="noopener">
+                        <i class="fab fa-github"></i> Source
                     </a>
                 </div>
+                <div class="project-context">CS3081 · AI · final project</div>
+            </article>
+
+
+            <!-- Project 2 -->
+            <article class="project-card">
+                <div class="project-meta">
+                    <span class="project-index">02</span>
+                    <span class="project-status status-active">● active</span>
+                    <span class="project-year">2025 — present</span>
+                </div>
+                <h3>STR — Arch Linux Rice</h3>
+                <p>
+                    Personal Arch + Hyprland setup with a locked design
+                    system, dotfiles symlinked from a tracked repo, and a
+                    deliberate aesthetic — no warm tones, no neon, no premade
+                    themes. Same palette this site is built on.
+                </p>
+                <div class="project-tech">
+                    <span>Arch Linux</span>
+                    <span>Hyprland</span>
+                    <span>Bash</span>
+                    <span>Git</span>
+                </div>
+                <div class="project-context">Personal · ongoing</div>
+            </article>
+
+            <!-- Project 3 -->
+            <article class="project-card">
+                <div class="project-meta">
+                    <span class="project-index">03</span>
+                    <span class="project-status status-shipped">● shipped</span>
+                    <span class="project-year">2026</span>
+                </div>
+                <h3>Trompe la Machine</h3>
+                <p>
+                    Browser-based digit recognition demo for a French Culture
+                    Day event tied to Yann LeCun. Sketch a digit on canvas,
+                    a Python proxy server forwards the image to an LLM, JSON
+                    classification returns. Audience tries to fool it.
+                </p>
+                <div class="project-tech">
+                    <span>Python</span>
+                    <span>HTML</span>
+                    <span>Canvas API</span>
+                    <span>Anthropic API</span>
+                </div>
+                <div class="project-context">Cultural event demo</div>
+            </article>
+
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2 class="section-title">
+            <span class="section-index">04</span>
+            <span class="section-name">Contact</span>
+        </h2>
+
+        <div class="contact-content">
+            <p class="contact-intro">
+                Open to internships, collaborations, and well-formed bug reports.
+            </p>
+
+            <div class="contact-methods">
+                <a href="mailto:yajubili@effat.edu.sa" class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <div>
+                        <span class="contact-label">email</span>
+                        <span class="contact-value">yajubili@effat.edu.sa</span>
+                    </div>
+                </a>
+
+                <a href="https://github.com/skuwii" target="_blank" rel="noopener" class="contact-item">
+                    <i class="fab fa-github"></i>
+                    <div>
+                        <span class="contact-label">github</span>
+                        <span class="contact-value">github.com/skuwii</span>
+                    </div>
+                </a>
+
+                <a href="" target="_blank" rel="noopener" class="contact-item">
+                    <i class="fab fa-linkedin"></i>
+                    <div>
+                        <span class="contact-label">linkedin</span>
+                        <span class="contact-value">coming soon</span>
+                    </div>
+                </a>
             </div>
         </div>
+    </section>
 
-        <!-- Add more project cards as needed -->
-
-    </div>
-</section>
-
-<!-- Contact Section -->
-<section id="contact" class="contact">
-    <h2 class="section-title">Get In Touch</h2>
-
-    <div class="contact-content">
-        <p>I’m currently looking for opportunities!</p>
-
-        <div class="contact-methods">
-            <a href="yajubili@effat.edu.sa" class="contact-item">
-                <i class="fas fa-envelope"></i>
-                <span>yajubili@effat.edu.sa</span>
-            </a>
-
-            <a href="https://linkedin.com/in/yourprofile" class="contact-item">
-                <i class="fab fa-linkedin"></i>
-                <span>LinkedIn</span>
-            </a>
-
-            <a href="https://github.com/skuwii" class="contact-item">
-                <i class="fab fa-github"></i>
-                <span>GitHub</span>
-            </a>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p class="footer-eof">[ end of file ]</p>
+            <p class="footer-meta">
+                <span class="footer-mark">S</span>
+                <span>Yousef Jubili · &copy; <span id="year">2026</span></span>
+            </p>
         </div>
-    </div>
-</section>
+    </footer>
 
-<!-- Footer -->
-<footer class="footer">
-    <p>&copy; 2026 Yousef Jubili. All rights reserved.</p>
-
-    <div class="social-links">
-        <a href="#"><i class="fab fa-github"></i></a>
-        <a href="#"><i class="fab fa-linkedin"></i></a>
-        <a href="#"><i class="fab fa-twitter"></i></a>
-    </div>
-</footer>
-
-<script src="js/script.js"></script>
-
-
-
+    <script src="js/script.js"></script>
 </body>
 </html>
