@@ -41,6 +41,7 @@
                 <li><a href="#home"><span class="nav-slash">/</span>home</a></li>
                 <li><a href="#about"><span class="nav-slash">/</span>about</a></li>
                 <li><a href="#skills"><span class="nav-slash">/</span>skills</a></li>
+                <li><a href="#coursework"><span class="nav-slash">/</span>coursework</a></li>
                 <li><a href="#projects"><span class="nav-slash">/</span>projects</a></li>
                 <li><a href="#contact"><span class="nav-slash">/</span>contact</a></li>
             </ul>
@@ -50,22 +51,22 @@
     <!-- Hero Section -->
     <section id="home" class="hero">
         <div class="hero-content">
-            <p class="label">[ portfolio ]</p>
+            <p class="label" data-reveal style="--reveal-delay: 0ms">[ portfolio ]</p>
 
-            <h1>
+            <h1 data-reveal style="--reveal-delay: 80ms">
                 Yousef Jubili
                 <span class="highlight">/ skuwii</span>
             </h1>
 
-            <p class="tagline">
+            <p class="tagline" data-reveal style="--reveal-delay: 160ms">
                 Computer Science Student · Effat University
             </p>
 
-            <p class="intro">
+            <p class="intro" data-reveal style="--reveal-delay: 240ms">
                 CS student exploring the vast world of all things digital. Based in Jeddah. I use Arch btw.
             </p>
 
-            <div class="hero-buttons">
+            <div class="hero-buttons" data-reveal style="--reveal-delay: 320ms">
                 <a href="#projects" class="btn btn-primary">
                     <i class="fas fa-folder-open"></i> View work
                 </a>
@@ -74,16 +75,16 @@
                 </a>
             </div>
 
-            <div class="prompt-line">
+            <div class="prompt-line" data-reveal style="--reveal-delay: 400ms">
                 <span class="prompt">S❯</span>
                 <span class="prompt-cmd">cat /etc/skuwii/identity</span>
                 <span class="cursor"></span>
             </div>
         </div>
 
-        <div class="hero-image">
+        <div class="hero-image" data-reveal style="--reveal-delay: 200ms">
             <div class="hero-image-frame">
-                <img src="images/profile.jpg" alt="Yousef Jubili">
+                <img src="images/profile.jpeg" alt="Yousef Jubili">
                 <div class="hero-image-corner top-left"></div>
                 <div class="hero-image-corner top-right"></div>
                 <div class="hero-image-corner bottom-left"></div>
@@ -94,13 +95,13 @@
 
     <!-- About Section -->
     <section id="about" class="about">
-        <h2 class="section-title">
+        <h2 class="section-title" data-reveal>
             <span class="section-index">01</span>
             <span class="section-name">About</span>
         </h2>
 
         <div class="about-content">
-            <div class="about-text">
+            <div class="about-text" data-reveal>
                 <p>
                     I'm a Computer Science student at Effat University, currently
                     in my second year — focused on building a strong general
@@ -116,7 +117,7 @@
                 </p>
             </div>
 
-            <div class="about-info">
+            <div class="about-info" data-reveal style="--reveal-delay: 120ms">
                 <div class="info-item">
                     <i class="fas fa-graduation-cap"></i>
                     <div>
@@ -154,13 +155,13 @@
 
     <!-- Skills Section -->
     <section id="skills" class="skills">
-        <h2 class="section-title">
+        <h2 class="section-title" data-reveal>
             <span class="section-index">02</span>
             <span class="section-name">Skills</span>
         </h2>
 
         <div class="skills-container">
-            <div class="skill-category">
+            <div class="skill-category" data-reveal>
                 <h3>
                     <i class="fas fa-code"></i>
                     Languages
@@ -174,7 +175,7 @@
                 </div>
             </div>
 
-            <div class="skill-category">
+            <div class="skill-category" data-reveal style="--reveal-delay: 80ms">
                 <h3>
                     <i class="fas fa-laptop-code"></i>
                     Web
@@ -186,7 +187,7 @@
                 </div>
             </div>
 
-            <div class="skill-category">
+            <div class="skill-category" data-reveal style="--reveal-delay: 160ms">
                 <h3>
                     <i class="fas fa-server"></i>
                     Systems &amp; Tools
@@ -199,7 +200,7 @@
                 </div>
             </div>
 
-            <div class="skill-category">
+            <div class="skill-category" data-reveal style="--reveal-delay: 240ms">
                 <h3>
                     <i class="fas fa-brain"></i>
                     AI &amp; CS
@@ -214,17 +215,86 @@
         </div>
     </section>
 
+    <!-- Coursework Section -->
+    <section id="coursework" class="coursework">
+        <h2 class="section-title" data-reveal>
+            <span class="section-index">03</span>
+            <span class="section-name">Coursework</span>
+        </h2>
+
+        <p class="section-subtitle" data-reveal style="--reveal-delay: 60ms">
+            Selected courses from my Computer Science degree at Effat University.
+        </p>
+
+        <div class="semester-grid">
+
+            <!-- Spring 2026 — current -->
+            <article class="semester" data-reveal>
+                <header class="semester-header">
+                    <span class="semester-period">Spring 2026</span>
+                    <span class="semester-tag tag-current">current</span>
+                </header>
+                <ul class="course-list">
+                    <li><span class="course-code">CS3081</span> Artificial Intelligence</li>
+                    <li><span class="course-code">CS3067</span> Information &amp; Cyber Security</li>
+                    <li><span class="course-code">CS2091</span> Computer Networks</li>
+                    <li><span class="course-code">CS2011</span> Data Structures &amp; Algorithms</li>
+                </ul>
+            </article>
+
+            <!-- Fall 2025 -->
+            <article class="semester" data-reveal style="--reveal-delay: 80ms">
+                <header class="semester-header">
+                    <span class="semester-period">Fall 2025</span>
+                </header>
+                <ul class="course-list">
+                    <li><span class="course-code">CS1021</span> Computer Architecture &amp; Organization</li>
+                    <li><span class="course-code">CS2111</span> Web Application Development</li>
+                    <li><span class="course-code">CS2132</span> Object Oriented Programming</li>
+                    <li><span class="course-code">MATH201</span> Calculus for Engineers II</li>
+                </ul>
+            </article>
+
+            <!-- Spring 2025 -->
+            <article class="semester" data-reveal style="--reveal-delay: 160ms">
+                <header class="semester-header">
+                    <span class="semester-period">Spring 2025</span>
+                </header>
+                <ul class="course-list">
+                    <li><span class="course-code">CS1131</span> Advanced Programming</li>
+                    <li><span class="course-code">CS2071</span> Database Systems</li>
+                    <li><span class="course-code">MATH101</span> Calculus for Engineers I</li>
+                </ul>
+            </article>
+
+            <!-- Fall 2024 -->
+            <article class="semester" data-reveal style="--reveal-delay: 240ms">
+                <header class="semester-header">
+                    <span class="semester-period">Fall 2024</span>
+                </header>
+                <ul class="course-list">
+                    <li><span class="course-code">CS1001</span> Introduction to Computing</li>
+                    <li><span class="course-code">GCS182</span> Principles of Computing</li>
+                    <li><span class="course-code">GMTH181E</span> Pre-Calculus for Engineering</li>
+                </ul>
+            </article>
+
+        </div>
+    </section>
+
     <!-- Projects Section -->
     <section id="projects" class="projects">
-        <h2 class="section-title">
-            <span class="section-index">03</span>
+        <h2 class="section-title" data-reveal>
+            <span class="section-index">04</span>
             <span class="section-name">Projects</span>
         </h2>
 
         <div class="projects-grid">
 
             <!-- Project 1 -->
-            <article class="project-card">
+            <article class="project-card" data-reveal>
+                <span class="project-category">AI · Multi-agent</span>
+
                 <div class="project-meta">
                     <span class="project-index">01</span>
                     <span class="project-status status-active">● active</span>
@@ -253,9 +323,10 @@
                 <div class="project-context">CS3081 · AI · final project</div>
             </article>
 
-
             <!-- Project 2 -->
-            <article class="project-card">
+            <article class="project-card" data-reveal style="--reveal-delay: 80ms">
+                <span class="project-category">Systems · Personal</span>
+
                 <div class="project-meta">
                     <span class="project-index">02</span>
                     <span class="project-status status-active">● active</span>
@@ -278,7 +349,9 @@
             </article>
 
             <!-- Project 3 -->
-            <article class="project-card">
+            <article class="project-card" data-reveal style="--reveal-delay: 160ms">
+                <span class="project-category">Web · AI Demo</span>
+
                 <div class="project-meta">
                     <span class="project-index">03</span>
                     <span class="project-status status-shipped">● shipped</span>
@@ -305,18 +378,18 @@
 
     <!-- Contact Section -->
     <section id="contact" class="contact">
-        <h2 class="section-title">
-            <span class="section-index">04</span>
+        <h2 class="section-title" data-reveal>
+            <span class="section-index">05</span>
             <span class="section-name">Contact</span>
         </h2>
 
         <div class="contact-content">
-            <p class="contact-intro">
+            <p class="contact-intro" data-reveal style="--reveal-delay: 60ms">
                 Open to internships, collaborations, and well-formed bug reports.
             </p>
 
             <div class="contact-methods">
-                <a href="mailto:yajubili@effat.edu.sa" class="contact-item">
+                <a href="mailto:yajubili@effat.edu.sa" class="contact-item" data-reveal>
                     <i class="fas fa-envelope"></i>
                     <div>
                         <span class="contact-label">email</span>
@@ -324,7 +397,7 @@
                     </div>
                 </a>
 
-                <a href="https://github.com/skuwii" target="_blank" rel="noopener" class="contact-item">
+                <a href="https://github.com/skuwii" target="_blank" rel="noopener" class="contact-item" data-reveal style="--reveal-delay: 80ms">
                     <i class="fab fa-github"></i>
                     <div>
                         <span class="contact-label">github</span>
@@ -332,7 +405,7 @@
                     </div>
                 </a>
 
-                <a href="" target="_blank" rel="noopener" class="contact-item">
+                <a href="" target="_blank" rel="noopener" class="contact-item" data-reveal style="--reveal-delay: 160ms">
                     <i class="fab fa-linkedin"></i>
                     <div>
                         <span class="contact-label">linkedin</span>
